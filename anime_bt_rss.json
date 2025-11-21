@@ -1,0 +1,94 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": [
+    {
+      "id": "nyaa_land",
+      "name": "nyaa.land",
+      "description": "BT 资源聚合站，新番/老番全覆盖",
+      "iconUrl": "https://nyaa.land/static/favicon.png",
+      "type": "rss",
+      "searchUrl": "https://nyaa.land/?page=rss&q={keyword}&c=0_0&f=0",
+      "filterByEpisodeSort": true,
+      "filterBySubjectName": true,
+      "enable": true
+    },
+    {
+      "id": "anime_garden",
+      "name": "AnimeGarden",
+      "description": "动画 BT 资源聚合站，分类清晰",
+      "iconUrl": "https://garden.breadio.wiki/favicon.ico",
+      "type": "rss",
+      "searchUrl": "https://garden.breadio.wiki/feed.xml?filter=[{\"type\":\"动画\",\"search\":[\"{keyword}\"]}]",
+      "filterByEpisodeSort": true,
+      "filterBySubjectName": true,
+      "enable": true
+    },
+    {
+      "id": "nyaa_si",
+      "name": "Nyaa.si",
+      "description": "全球最大动漫 BT 站，生肉/熟肉/字幕包齐全",
+      "iconUrl": "https://nyaa.si/favicon.ico",
+      "type": "rss",
+      "searchUrl": "https://nyaa.si/?page=rss&q={keyword}&c=1_0&f=0",
+      "filterByEpisodeSort": true,
+      "filterBySubjectName": true,
+      "enable": true
+    },
+    {
+      "id": "subsplease",
+      "name": "Subsplease",
+      "description": "高质量番剧字幕组 RSS，多语言字幕",
+      "iconUrl": "https://subsplease.org/favicon.ico",
+      "type": "rss",
+      "searchUrl": "https://subsplease.org/rss/?q={keyword}",
+      "filterByEpisodeSort": true,
+      "filterBySubjectName": true,
+      "enable": true
+    },
+    {
+      "id": "horrible_subs",
+      "name": "HorribleSubs",
+      "description": "经典番剧熟肉 BT 资源，英文字幕为主",
+      "iconUrl": "https://horriblesubs.info/favicon.ico",
+      "type": "rss",
+      "searchUrl": "https://horriblesubs.info/rss.php?mode=search&q={keyword}",
+      "filterByEpisodeSort": true,
+      "filterBySubjectName": true,
+      "enable": true
+    },
+    {
+      "id": "animer_ss",
+      "name": "Animerss",
+      "description": "按季度分类，当季新番查找高效",
+      "iconUrl": "https://animerss.moe/favicon.ico",
+      "type": "rss",
+      "searchUrl": "https://animerss.moe/search?q={keyword}&format=rss",
+      "filterByEpisodeSort": true,
+      "filterBySubjectName": true,
+      "enable": true
+    },
+    {
+      "id": "ani_db",
+      "name": "AniDB",
+      "description": "动漫数据库关联 BT 资源，精准匹配",
+      "iconUrl": "https://anidb.net/favicon.ico",
+      "type": "rss",
+      "searchUrl": "https://anidb.net/rss.php?type=torrent&q={keyword}&hd=1",
+      "filterByEpisodeSort": true,
+      "filterBySubjectName": true,
+      "enable": true
+    },
+    {
+      "id": "sukebei_nyaa",
+      "name": "Sukebei.nyaa.si",
+      "description": "动漫衍生/同人 BT 资源站",
+      "iconUrl": "https://sukebei.nyaa.si/favicon.ico",
+      "type": "rss",
+      "searchUrl": "https://sukebei.nyaa.si/?page=rss&q={keyword}&c=2_0&f=0",
+      "filterByEpisodeSort": true,
+      "filterBySubjectName": true,
+      "enable": true
+    }
+  ]
+}
