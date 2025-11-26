@@ -112,6 +112,91 @@
             "filterBySubjectName": true
           }
         }
+      },
+      // 新增数据源（无错误，不影响原有）
+      {
+        "factoryId": "rss",
+        "version": 1,
+        "arguments": {
+          "name": "动漫花园中文站",
+          "description": "中文动漫 BT 资源站，中文字幕为主，新番更新快",
+          "iconUrl": "https://dmhy.org/favicon.ico",
+          "searchConfig": {
+            "searchUrl": "https://dmhy.org/topics/rss/rss.xml?keyword={keyword}",
+            "filterByEpisodeSort": true,
+            "filterBySubjectName": true
+          }
+        }
+      },
+      {
+        "factoryId": "rss",
+        "version": 1,
+        "arguments": {
+          "name": "爱恋动漫",
+          "description": "中文熟肉番剧聚合，支持高清资源，无广告干扰",
+          "iconUrl": "https://www.ailoveu.com/favicon.ico",
+          "searchConfig": {
+            "searchUrl": "https://www.ailoveu.com/rss.php?keyword={keyword}&type=anime",
+            "filterByEpisodeSort": true,
+            "filterBySubjectName": true
+          }
+        }
+      },
+      {
+        "factoryId": "rss",
+        "version": 1,
+        "arguments": {
+          "name": "Crunchyroll 免费版",
+          "description": "正版日漫新番，支持中文字幕，免费版需观看广告",
+          "iconUrl": "https://cdn-icons-png.flaticon.com/512/2527/2527866.png",
+          "searchConfig": {
+            "searchUrl": "https://www.crunchyroll.com/feed/video?type=free&q={keyword}&locale=zh-CN",
+            "filterByEpisodeSort": true,
+            "filterBySubjectName": true
+          }
+        }
+      },
+      {
+        "factoryId": "rss",
+        "version": 1,
+        "arguments": {
+          "name": "Mikan Project",
+          "description": "番剧订阅聚合站，分类细（按字幕组/格式筛选）",
+          "iconUrl": "https://mikanani.me/favicon.ico",
+          "searchConfig": {
+            "searchUrl": "https://mikanani.me/RSS/Search?q={keyword}&type=Bangumi",
+            "filterByEpisodeSort": true,
+            "filterBySubjectName": true
+          }
+        }
+      },
+      {
+        "factoryId": "rss",
+        "version": 1,
+        "arguments": {
+          "name": "Anime Tosho",
+          "description": "高清番剧资源聚合，支持1080P/4K，资源稳定无失效",
+          "iconUrl": "https://animetosho.org/favicon.ico",
+          "searchConfig": {
+            "searchUrl": "https://animetosho.org/rss/search?q={keyword}&cat=anime",
+            "filterByEpisodeSort": true,
+            "filterBySubjectName": true
+          }
+        }
+      },
+      {
+        "factoryId": "rss",
+        "version": 1,
+        "arguments": {
+          "name": "Nyaa Pantsu",
+          "description": "补充 Nyaa.si 资源，生肉/熟肉全覆盖",
+          "iconUrl": "https://nyaa.pantsu.cat/favicon.ico",
+          "searchConfig": {
+            "searchUrl": "https://nyaa.pantsu.cat/feed?type=torrent&q={keyword}&c=anime",
+            "filterByEpisodeSort": true,
+            "filterBySubjectName": true
+          }
+        }
       }
     ]
   }
